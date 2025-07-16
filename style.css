@@ -1,0 +1,268 @@
+/* common propeties */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.all-btn{
+    background-color: rgb(229, 84, 115);
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 20px 43px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.container{
+     max-width: 1440px;
+     margin: 0 auto;
+     margin-top: 30px;
+}
+
+/* Header section */
+header{
+       background-color: #E554731A;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;  
+}
+
+.header-title{
+    max-width: 708px;
+    max-height: 505x;
+}
+
+.header-title h2{
+    font-size: 5rem;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 32px;
+}
+
+.header-title p{
+    font-size: 1.10rem;
+    color: rgba(39, 39, 39, 0.6);
+    margin-bottom: 32px;
+}
+
+.header-flower{
+    max-width: 635px;
+    max-height: 800px;
+}
+
+.header-flower img{
+    width: 100%;
+}
+
+
+/* Feature */
+.feature{
+    text-align: center;
+    padding: 178px 423px 48px 423px;
+}
+
+.feature-title{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.feature-description{
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.6);
+    margin-top: 8px;
+}
+
+/* Our flower tree card */
+
+.tree-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.flower-card{
+    max-width: 464px;
+    max-height: 605px;
+}
+
+.tree-item {
+    width: 464px;
+    height: 538px;
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+
+.tree-item img{
+    max-width: 310px;
+    max-height: 428px;
+    padding-top: 110px;
+    padding-left: 76px;
+    padding-right: 78px;
+}
+
+.tree-item2{
+    background-color: rgba(5, 151, 160, 0.15);
+}
+.tree-item2 img{
+    padding-top: 117px;
+}
+
+.tree-item3{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.ancore a{
+    margin-top: 15px;
+    color: rgb(39, 39, 39);
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Delivery Card */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive media for small device*/
+
+@media screen and (max-width: 576px) {
+    .header-container{
+    flex-direction: column;
+}
+
+.header-title{
+    margin-left: 30px;
+}
+.header-flower img{
+    width: 80%;
+    padding: 50px;
+}
+
+.feature{
+   padding: 0;
+   margin-top: 20px;
+   padding: 0px 40px;
+}
+.tree-container{
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 40px;
+    justify-items: center;
+}
+.flower-card{
+    margin-top: 30px;
+}
+
+
+
+}
+
+/* Responsive media for medium device */
+@media screen and (min-width: 577px) and (max-width:768px) {
+
+    .header-container{
+    flex-direction: column;
+}
+
+.header-title{
+    margin-left: 30px;
+}
+
+.header-flower img{
+    width: 80%;
+    padding: 50px;
+}
+
+.feature{
+   padding: 0;
+   margin-top: 20px;
+   padding: 0px 40px;
+}
+
+.tree-container{
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 40px;
+    justify-items: center;
+}
+.flower-card{
+    margin-top: 30px;
+}
+
+}
+
+
+/* Responsive media for large Device */
+@media screen and (min-width: 769px) and (max-width:992px) {
+
+    .header-container{
+    flex-direction: column;
+}
+
+.header-title{
+    margin-left: 30px;
+}
+
+.header-flower img{
+    width: 100%;
+}
+.feature{
+   padding: 0;
+   margin-top: 20px;
+   padding: 0px 40px;
+}
+.tree-container{
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 40px;
+    justify-items: center;
+}
+
+.flower-card{
+    margin-top: 30px;
+}
+
+}
+
+@media screen and (min-width: 993px) and (max-width:1450px) {
+
+.header-title{
+    margin-left: 30px;
+}
+
+
+ .feature{
+   padding: 0;
+   margin-top: 20px;
+   padding: 0px 40px;
+}
+
+.tree-container{
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 40px;
+    justify-items: center;
+}
+
+}
+
+
+
+
+
+
