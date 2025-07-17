@@ -126,8 +126,28 @@ header{
 
 
 /* Delivery Card */
+.delivery-card{
+    text-align: center;
+    max-height: 100%;
+}
 
+.delivery-card figure img{
+    margin-bottom: 20px;
+}
+.delivery-card a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgba(39, 39, 39, 0.8);
+    margin-top: 20px;
+}
 
+.delivery-card-container{
+    padding: 60px 170px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 150px;  
+}
 
 
 
@@ -171,6 +191,11 @@ header{
     margin-top: 30px;
 }
 
+.delivery-card-container{
+    padding: 0px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 80px; 
+}
 
 
 }
@@ -206,6 +231,12 @@ header{
     margin-top: 30px;
 }
 
+.delivery-card-container{
+    padding: 0px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 80px; 
+}
+
 }
 
 
@@ -238,6 +269,12 @@ header{
     margin-top: 30px;
 }
 
+.delivery-card-container{
+    padding: 0px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 80px; 
+}
+
 }
 
 @media screen and (min-width: 993px) and (max-width:1450px) {
@@ -258,6 +295,8 @@ header{
     margin-top: 40px;
     justify-items: center;
 }
+
+
 
 }
 
