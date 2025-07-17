@@ -147,6 +147,7 @@ header{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 150px;  
+    background-color: rgba(39, 39, 39, 0.05);
 }
 
 /* hot Deal */
@@ -191,6 +192,53 @@ header{
     gap: 20px;
     justify-items: center;
 }
+
+/* deal container */
+ 
+.get-latest-deal{
+   background-image: url(Rectangle\ 9.png);
+   align-items: center;
+   justify-items: center;
+   padding: 127px 27px;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   border-radius: 5px;
+   max-height: 450px;
+} 
+
+.input-fild{
+    width: 700px;
+    border-radius: 5px;
+    border: none;
+    padding: 23px 43px;
+    margin-top: 10px;
+}
+.subscribe-email{
+    display: flex;
+    align-items: center; 
+}
+
+.subscribe{
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -242,6 +290,17 @@ header{
     gap: 10px;
 }
 
+.get-latest-deal{
+   padding: 40px;
+} 
+
+.input-fild{
+    width: 100%;  
+}
+
+.subscribe-email{
+    flex-direction: column;
+}
 
 
 }
@@ -287,6 +346,17 @@ header{
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
 }
+.get-latest-deal{
+   padding: 40px;
+} 
+
+.input-fild{
+    width: 100%;  
+}
+
+.subscribe-email{
+    flex-direction: column;
+}
 
 }
 
@@ -328,6 +398,18 @@ header{
 .flower-section{
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+}
+
+.get-latest-deal{
+   padding: 40px;
+} 
+
+.input-fild{
+    width: 100%;  
+}
+
+.subscribe-email{
+    flex-direction: column;
 }
 
 }
