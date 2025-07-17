@@ -170,6 +170,10 @@ header{
     margin-bottom: 20px;
 }
 
+.deal-title button{
+    margin-top: 20px;
+}
+
 .deal-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -224,23 +228,33 @@ header{
   margin-left: 20px;
 }
 
+/* footer part */
+
+footer{
+    background-color: rgb(17, 16, 16);
+}
+
+#footer-span{
+    color: rgb(229, 84, 115);
+}
+#footer-span2{
+    color: white;
+}
+
+#footer-span4{
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.4);
+}
+#footer-span3{
+    margin-top: 5px;
+    font-size: 1.10rem;
+    color: rgba(255, 255, 255, 0.9);
+}
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Responsive section part start */
 
 
 
@@ -263,7 +277,6 @@ header{
 
 .feature{
    padding: 0;
-   margin-top: 20px;
    padding: 0px 40px;
 }
 .tree-container{
@@ -302,6 +315,12 @@ header{
     flex-direction: column;
 }
 
+footer{
+    padding: 50px;
+}
+.deal-title h3, p, button{
+    margin-bottom: 0px;
+}
 
 }
 
@@ -358,6 +377,15 @@ header{
     flex-direction: column;
 }
 
+footer{
+    padding: 50px;
+}
+.deal-title h3, p, button{
+    margin-bottom: 0px;
+}
+
+
+
 }
 
 
@@ -411,15 +439,21 @@ header{
 .subscribe-email{
     flex-direction: column;
 }
+footer{
+    padding: 50px;
+}
+.deal-title h3, p, button{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
 
 }
 
 @media screen and (min-width: 993px) and (max-width:1450px) {
-
 .header-title{
     margin-left: 30px;
 }
-
 
  .feature{
    padding: 0;
@@ -437,8 +471,9 @@ header{
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 }
-
-
+footer{
+    padding: 50px;
+}
 }
 
 
