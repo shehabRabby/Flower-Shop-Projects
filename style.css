@@ -149,12 +149,48 @@ header{
     gap: 150px;  
 }
 
+/* hot Deal */
+.sell-offer{
+    background-color: rgba(229, 84, 115, 0.05);
+}
 
 
+.off-color{
+    color: rgb(229, 84, 115);
+}
+
+.deal-title{
+    max-width: 594px;
+    max-height: 228px;
+    text-align: center; 
+}
+
+.deal-title h3, p, button{
+    margin-bottom: 20px;
+}
+
+.deal-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    padding-top: 80px;
+}
+
+.flower-jar figure img{
+    padding-bottom: 40px;
+    padding-top: 35px;
+}
 
 
+/* Flower-section */
 
-
+.flower-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
 
 
 
@@ -194,8 +230,18 @@ header{
 .delivery-card-container{
     padding: 0px;
     grid-template-columns: repeat(1, 1fr);
-    gap: 80px; 
+    justify-items: center;
 }
+
+ .deal-container{
+    grid-template-columns: repeat(1, 1fr);
+} 
+
+.flower-section{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+
 
 
 }
@@ -237,6 +283,11 @@ header{
     gap: 80px; 
 }
 
+.flower-section{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+
 }
 
 
@@ -274,6 +325,10 @@ header{
     grid-template-columns: repeat(1, 1fr);
     gap: 80px; 
 }
+.flower-section{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
 
 }
 
@@ -296,6 +351,10 @@ header{
     justify-items: center;
 }
 
+.flower-section{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
 
 
 }
